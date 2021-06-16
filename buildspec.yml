@@ -9,7 +9,7 @@ phases:
       - mvn install
    post_build:
       commands:
-      - echo echo Build completed on `date`
+      - echo Build completed on `date`
 artifacts:
    files:
-   - target/portal.war
+   - target/portal.jar
